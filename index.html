@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang "en">
+  <head>
+    <meta charsey="utf-8">
+    <meta name="viewport" content="device-width, inital-scale= 1.0"/>
+    <title>Jhay-Cravings Survey Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <h1 id="title">Jhay-Cravings Survey Form</h1>
+        <p id="description"> Kindly fill out this form to help us improve our service. Thank you.</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label" > Name: <input id="name" type="text" placeholder="Enter your full name" required/> </label>
+          <label id="email-label" > Email: <input id="email" type="email" placeholder="Enter your email" required/> </label>
+          <label id="number-label">Age (optional):<input id="number" type="number" min="13" max="120" placeholder="Enter Your Age" /></label>
+          <label id="number-label" >Phone number:<input id="number" type="number" pattern="[+0-9]{15, }" placeholder="Enter Your Phone number" required/></label>
+          </fieldset>
+          <fieldset>
+             <label> What option best describes your current role?
+              <select id="dropdown" name="referrer">
+                <option value="">(select an option)</option>
+                <option value="1">Student</option>
+                <option value="2">Full-time Job</option>
+                <option value="3">Self employed</option>
+                <option value="4">Full-time Learner</option>
+                <option value="5">Prefer not to say</option>
+                <option value="6">Others</option>
+                </select>
+                </label>
+
+              <label> Whats your favorite service feature?
+              <select id="dropdown" name="referrer">
+                <option value="">(select an option)</option>
+                <option value="1">Costumer service</option>
+                <option value="2">Quick response</option>
+                <option value="3">Affordable prices</option>
+                <option value="4">Others</option>
+                </select>
+
+                <label> How would you rate your experience when ordering a cake from us:
+                <label><Input type="radio" name="response" class="Inline" value="Excellent"/>Excellent</label>
+                <label><Input type="radio" name="response" class="Inline" value="Good"/>Good</label>
+                <label><Input type="radio" name="response" class="Inline" value="Ok"/>Ok</label>
+                <label><Input type="radio" name="response" class="Inline" value="Poor"/>Poor</label>
+                <label><Input type="radio" name="response" class="Inline" value="N/A"/>N/A</label>
+                </label>
+
+                <label> Would you recommend our service to a friend?
+                <label><Input type="radio" name="response" class="Inline" value="Definitely"/>Definitely</label>
+                <label><Input type="radio" name="response" class="Inline" value="Not a chance"/>Not a chance</label>
+                <label><Input type="radio" name="response" class="Inline" value="Maybe"/>Maybe</label>
+                </label>
+
+              <label> When buying a cake or cupcake, what is most important aspect? (click all that applies)
+                <label><input type="checkbox" name="recommed" class="inline" value="Apperance/Design"/>Apperance/Design</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="Flavour"/>Flavou</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="Being-able-to-personalise-entirely"/>Being able to personalise entirely</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="Price"/>Price</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="Organice,-sourced-ingredients"/>Organice, sourced ingredients</label>
+
+                <label> What would you like to see improved (click all that applies)
+                <label><input type="checkbox" name="recommed" class="inline" value="Taste"/>Taste</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="more-flavors"/>More flavors</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="Price"/>Price</label>
+                <label><input type="checkbox" name="recommed" class="inline" value="online-classes"/>Online classes</label>
+
+                </label>
+              <fieldset>
+              <label> How did you hear about us?
+              <select id="dropdown" name="referrer">
+                <option value="">(select one)</option>
+                <option value="1">Instagram</option>
+                <option value="2">Twitter</option>
+                <option value="3">Friends and Family</option>
+                <option value="4">Others</option>
+                </select>
+                </label>
+                <label> Kindly give a feedback or suggestion
+                  <textarea name="feedback" rows="3" cols="30" placeholder="Please give your feedback or suggestions"></textarea>
+                  </label>
+              </fieldset>
+              <input id="submit" type="submit" value="Submit"/>
+        </form>
+      </body>
+      <footer>
+        <label>Portharcourt, Nigeria</label>
+        </footer>
+  </html>
